@@ -6,6 +6,8 @@
 </head>
 <body>
   <script>
+  window.addEventListener('load', function(){
+
     var result = window.fetch('https://addyosmani.github.io')
 
     result.then(function(response) {
@@ -17,6 +19,9 @@
     }).catch(function(ex) {
       console.log('failed', ex)
     })
+    
+  });
+
   </script>
 </body>
 </html>
