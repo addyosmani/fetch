@@ -2,11 +2,11 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <script src="../fetch.js"></script>
+  <!-- <script src="../fetch.js"></script> -->
 </head>
 <body>
   <script>
-    var result = fetch('https://github.com')
+    var result = window.fetch('https://github.com')
 
     result.then(function(response) {
       console.log('response', response)
